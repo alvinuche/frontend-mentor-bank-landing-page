@@ -104,7 +104,7 @@ function handleServices(articles) {
 		.map(({ image, heading, desc }) => {
 			return `<article class="article">
             <div class="service-img-container">
-                <img src=${image} alt=${heading} />
+                <img src="${image}" alt='${heading}' />
             </div>
             <div>
                 <h4>${heading}</h4>
@@ -121,7 +121,7 @@ function handleArticle(articles) {
 		.map(({ img, name, title, blog }) => {
 			return `<article class="article latest-article">
 			<div class="latest-article-img-container">
-				<img src=${img} alt=${title} />
+				<img src="${img}" alt="${title}" />
 			</div>
 			<div class="message-container">
 				<small>${name}</small>
